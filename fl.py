@@ -3,7 +3,6 @@ from flask import request, jsonify, render_template
 import requests
 import tempfile
 import webvtt
-from datetime import datetime
 
 app = flask.Flask(__name__)
 app.config['DEBUG'] = True
